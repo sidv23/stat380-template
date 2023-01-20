@@ -3,8 +3,8 @@ title: "Template Quarto Document"
 author: "Author Name"
 title-block-banner: true
 title-block-style: default
-format: html
-# format: pdf
+# format: html
+format: pdf
 ---
 
 
