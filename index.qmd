@@ -17,10 +17,15 @@ This is an `R` cell
 #| fig-align: "center"
 #| fig-cap-location: top
 
-x <- c(1,2,3)
-library(wesanderson)
-wes_palette("BottleRocket2", 4)
+renv::activate()
+library(dplyr)
+x <- rnorm(100)
+x %>% 
+list(data=., mean=mean(.), sd=sd(.))
 ```
 
+And this is a $\TeX$ block
 
-And this is something else
+$$
+\bar{X} = \frac{1}{n} \sum_{i=1}^{n} X_i
+$$
