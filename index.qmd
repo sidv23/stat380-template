@@ -1,0 +1,26 @@
+---
+title: "Template Quarto Document"
+author: "Author Name"
+title-block-banner: true
+title-block-style: default
+format: html
+# format: pdf
+---
+
+
+This is a template quarto document.
+
+This is an `R` cell
+
+```{R}
+#| fig-subcap: "This is the figure subcaption"
+#| fig-align: "center"
+#| fig-cap-location: top
+
+x <- c(1,2,3)
+library(wesanderson)
+wes_palette("BottleRocket2", 4)
+```
+
+
+And this is something else
